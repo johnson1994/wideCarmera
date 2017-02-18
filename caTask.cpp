@@ -13,7 +13,7 @@ using namespace cv;
 
 /*初始化*/
 int CaTask::init(){
-	this->combine=new Combine(true,"result.jpg",this->winName);
+	this->combine=new Combine(false,"result.jpg",this->winName);
 	this->config=new Config();
 	if(this->config->captureInit(0,1,2)!=0){
 		return -1;	

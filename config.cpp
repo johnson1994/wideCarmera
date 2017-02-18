@@ -55,13 +55,15 @@ void Config::clear(){
 
 /*从摄像头获得图像*/
 int Config::takeCapture(){
+	Mat edge1,edge2,edge3;
 	this->clear();
-	*this->capture1 >> this->edge1;
-	imgs.push_back(this->edge1);
-	*this->capture2 >> this->edge2;
-	imgs.push_back(this->edge2);
-	*this->capture3 >> this->edge3;
-	imgs.push_back(this->edge3);
+	*this->capture1 >> edge1;
+	imgs.push_back(edge1);
+	*this->capture2 >> edge2;
+	imgs.push_back(edge2);
+	*this->capture3 >> edge3;
+	imgs.push_back(edge3);
+
 	return 0;
 }
 
