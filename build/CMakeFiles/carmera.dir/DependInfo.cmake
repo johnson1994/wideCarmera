@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/johnson/carmera/caTask.cpp" "/home/johnson/carmera/build/CMakeFiles/carmera.dir/caTask.cpp.o"
-  "/home/johnson/carmera/combine.cpp" "/home/johnson/carmera/build/CMakeFiles/carmera.dir/combine.cpp.o"
-  "/home/johnson/carmera/config.cpp" "/home/johnson/carmera/build/CMakeFiles/carmera.dir/config.cpp.o"
-  "/home/johnson/carmera/main.cpp" "/home/johnson/carmera/build/CMakeFiles/carmera.dir/main.cpp.o"
-  "/home/johnson/carmera/mutipleCombine.cpp" "/home/johnson/carmera/build/CMakeFiles/carmera.dir/mutipleCombine.cpp.o"
+  "/home/johnson/wideCarmera/caTask.cpp" "/home/johnson/wideCarmera/build/CMakeFiles/carmera.dir/caTask.cpp.o"
+  "/home/johnson/wideCarmera/combine.cpp" "/home/johnson/wideCarmera/build/CMakeFiles/carmera.dir/combine.cpp.o"
+  "/home/johnson/wideCarmera/config.cpp" "/home/johnson/wideCarmera/build/CMakeFiles/carmera.dir/config.cpp.o"
+  "/home/johnson/wideCarmera/main.cpp" "/home/johnson/wideCarmera/build/CMakeFiles/carmera.dir/main.cpp.o"
+  "/home/johnson/wideCarmera/mutipleCombine.cpp" "/home/johnson/wideCarmera/build/CMakeFiles/carmera.dir/mutipleCombine.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/johnson/carmera
+CMAKE_SOURCE_DIR = /home/johnson/wideCarmera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/johnson/carmera/build
+CMAKE_BINARY_DIR = /home/johnson/wideCarmera/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/carmera.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/carmera.dir/flags.make
 
 CMakeFiles/carmera.dir/main.cpp.o: CMakeFiles/carmera.dir/flags.make
 CMakeFiles/carmera.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/johnson/carmera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/carmera.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carmera.dir/main.cpp.o -c /home/johnson/carmera/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/johnson/wideCarmera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/carmera.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carmera.dir/main.cpp.o -c /home/johnson/wideCarmera/main.cpp
 
 CMakeFiles/carmera.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carmera.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/johnson/carmera/main.cpp > CMakeFiles/carmera.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/johnson/wideCarmera/main.cpp > CMakeFiles/carmera.dir/main.cpp.i
 
 CMakeFiles/carmera.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carmera.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johnson/carmera/main.cpp -o CMakeFiles/carmera.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johnson/wideCarmera/main.cpp -o CMakeFiles/carmera.dir/main.cpp.s
 
 CMakeFiles/carmera.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/carmera.dir/main.cpp.o.provides.build: CMakeFiles/carmera.dir/main.cp
 
 CMakeFiles/carmera.dir/caTask.cpp.o: CMakeFiles/carmera.dir/flags.make
 CMakeFiles/carmera.dir/caTask.cpp.o: ../caTask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/johnson/carmera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/carmera.dir/caTask.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carmera.dir/caTask.cpp.o -c /home/johnson/carmera/caTask.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/johnson/wideCarmera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/carmera.dir/caTask.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carmera.dir/caTask.cpp.o -c /home/johnson/wideCarmera/caTask.cpp
 
 CMakeFiles/carmera.dir/caTask.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carmera.dir/caTask.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/johnson/carmera/caTask.cpp > CMakeFiles/carmera.dir/caTask.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/johnson/wideCarmera/caTask.cpp > CMakeFiles/carmera.dir/caTask.cpp.i
 
 CMakeFiles/carmera.dir/caTask.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carmera.dir/caTask.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johnson/carmera/caTask.cpp -o CMakeFiles/carmera.dir/caTask.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johnson/wideCarmera/caTask.cpp -o CMakeFiles/carmera.dir/caTask.cpp.s
 
 CMakeFiles/carmera.dir/caTask.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/carmera.dir/caTask.cpp.o.provides.build: CMakeFiles/carmera.dir/caTas
 
 CMakeFiles/carmera.dir/mutipleCombine.cpp.o: CMakeFiles/carmera.dir/flags.make
 CMakeFiles/carmera.dir/mutipleCombine.cpp.o: ../mutipleCombine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/johnson/carmera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/carmera.dir/mutipleCombine.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carmera.dir/mutipleCombine.cpp.o -c /home/johnson/carmera/mutipleCombine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/johnson/wideCarmera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/carmera.dir/mutipleCombine.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carmera.dir/mutipleCombine.cpp.o -c /home/johnson/wideCarmera/mutipleCombine.cpp
 
 CMakeFiles/carmera.dir/mutipleCombine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carmera.dir/mutipleCombine.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/johnson/carmera/mutipleCombine.cpp > CMakeFiles/carmera.dir/mutipleCombine.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/johnson/wideCarmera/mutipleCombine.cpp > CMakeFiles/carmera.dir/mutipleCombine.cpp.i
 
 CMakeFiles/carmera.dir/mutipleCombine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carmera.dir/mutipleCombine.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johnson/carmera/mutipleCombine.cpp -o CMakeFiles/carmera.dir/mutipleCombine.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johnson/wideCarmera/mutipleCombine.cpp -o CMakeFiles/carmera.dir/mutipleCombine.cpp.s
 
 CMakeFiles/carmera.dir/mutipleCombine.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/carmera.dir/mutipleCombine.cpp.o.provides.build: CMakeFiles/carmera.d
 
 CMakeFiles/carmera.dir/config.cpp.o: CMakeFiles/carmera.dir/flags.make
 CMakeFiles/carmera.dir/config.cpp.o: ../config.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/johnson/carmera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/carmera.dir/config.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carmera.dir/config.cpp.o -c /home/johnson/carmera/config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/johnson/wideCarmera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/carmera.dir/config.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carmera.dir/config.cpp.o -c /home/johnson/wideCarmera/config.cpp
 
 CMakeFiles/carmera.dir/config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carmera.dir/config.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/johnson/carmera/config.cpp > CMakeFiles/carmera.dir/config.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/johnson/wideCarmera/config.cpp > CMakeFiles/carmera.dir/config.cpp.i
 
 CMakeFiles/carmera.dir/config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carmera.dir/config.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johnson/carmera/config.cpp -o CMakeFiles/carmera.dir/config.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johnson/wideCarmera/config.cpp -o CMakeFiles/carmera.dir/config.cpp.s
 
 CMakeFiles/carmera.dir/config.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/carmera.dir/config.cpp.o.provides.build: CMakeFiles/carmera.dir/confi
 
 CMakeFiles/carmera.dir/combine.cpp.o: CMakeFiles/carmera.dir/flags.make
 CMakeFiles/carmera.dir/combine.cpp.o: ../combine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/johnson/carmera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/carmera.dir/combine.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carmera.dir/combine.cpp.o -c /home/johnson/carmera/combine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/johnson/wideCarmera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/carmera.dir/combine.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/carmera.dir/combine.cpp.o -c /home/johnson/wideCarmera/combine.cpp
 
 CMakeFiles/carmera.dir/combine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/carmera.dir/combine.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/johnson/carmera/combine.cpp > CMakeFiles/carmera.dir/combine.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/johnson/wideCarmera/combine.cpp > CMakeFiles/carmera.dir/combine.cpp.i
 
 CMakeFiles/carmera.dir/combine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/carmera.dir/combine.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johnson/carmera/combine.cpp -o CMakeFiles/carmera.dir/combine.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/johnson/wideCarmera/combine.cpp -o CMakeFiles/carmera.dir/combine.cpp.s
 
 CMakeFiles/carmera.dir/combine.cpp.o.requires:
 
@@ -238,7 +238,7 @@ carmera: /usr/local/lib/libopencv_imgcodecs.so.3.2.0
 carmera: /usr/local/lib/libopencv_imgproc.so.3.2.0
 carmera: /usr/local/lib/libopencv_core.so.3.2.0
 carmera: CMakeFiles/carmera.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/johnson/carmera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable carmera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/johnson/wideCarmera/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable carmera"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/carmera.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -259,6 +259,6 @@ CMakeFiles/carmera.dir/clean:
 .PHONY : CMakeFiles/carmera.dir/clean
 
 CMakeFiles/carmera.dir/depend:
-	cd /home/johnson/carmera/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/johnson/carmera /home/johnson/carmera /home/johnson/carmera/build /home/johnson/carmera/build /home/johnson/carmera/build/CMakeFiles/carmera.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/johnson/wideCarmera/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/johnson/wideCarmera /home/johnson/wideCarmera /home/johnson/wideCarmera/build /home/johnson/wideCarmera/build /home/johnson/wideCarmera/build/CMakeFiles/carmera.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/carmera.dir/depend
 

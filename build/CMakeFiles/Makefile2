@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/johnson/carmera
+CMAKE_SOURCE_DIR = /home/johnson/wideCarmera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/johnson/carmera/build
+CMAKE_BINARY_DIR = /home/johnson/wideCarmera/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/carmera.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/johnson/carmera/build
 CMakeFiles/carmera.dir/all:
 	$(MAKE) -f CMakeFiles/carmera.dir/build.make CMakeFiles/carmera.dir/depend
 	$(MAKE) -f CMakeFiles/carmera.dir/build.make CMakeFiles/carmera.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johnson/carmera/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target carmera"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/johnson/wideCarmera/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target carmera"
 .PHONY : CMakeFiles/carmera.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/carmera.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/carmera.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/johnson/carmera/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johnson/wideCarmera/build/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/carmera.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/johnson/carmera/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johnson/wideCarmera/build/CMakeFiles 0
 .PHONY : CMakeFiles/carmera.dir/rule
 
 # Convenience name for target.

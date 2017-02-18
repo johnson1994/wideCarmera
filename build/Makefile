@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/johnson/carmera
+CMAKE_SOURCE_DIR = /home/johnson/wideCarmera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/johnson/carmera/build
+CMAKE_BINARY_DIR = /home/johnson/wideCarmera/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/johnson/carmera/build/CMakeFiles /home/johnson/carmera/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johnson/wideCarmera/build/CMakeFiles /home/johnson/wideCarmera/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/johnson/carmera/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/johnson/wideCarmera/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
