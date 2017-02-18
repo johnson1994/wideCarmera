@@ -19,7 +19,6 @@ int CaTask::init(){
 		return -1;	
 	}
 	namedWindow(this->winName,1);
-	this->combine->init();
 	return 0;
 }
 

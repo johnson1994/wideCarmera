@@ -45,7 +45,6 @@ vector<Mat> Config::getImgs(){
 
 /*设置所有图像*/
 void Config::setImgs(vector<Mat> imgVector){
-	this->clear();
 	this->imgs=imgVector;
 }
 
@@ -56,22 +55,28 @@ void Config::clear(){
 
 /*从摄像头获得图像*/
 int Config::takeCapture(){
+	Mat edge1,edge2,edge3;
 	this->clear();
-	*this->capture1 >> this->edge1;
-	imgs.push_back(this->edge1);
-	*this->capture2 >> this->edge2;
-	imgs.push_back(this->edge2);
-	*this->capture3 >> this->edge3;
-	imgs.push_back(this->edge3);
+	*this->capture1 >> edge1;
+	imgs.push_back(edge1);
+	*this->capture2 >> edge2;
+	imgs.push_back(edge2);
+	*this->capture3 >> edge3;
+	imgs.push_back(edge3);
 
 	return 0;
 }
 
 /*缩小所有图像*/
 int Config::resize(){
-	for(int i=0;i<this->imgs.size();i++){
-		cv::resize(this->imgs[i], this->imgs[i], Size(this->size_w,this->size_h));
+	vector<Mat> newImgs;
+
+	for(int i=0;i<imgs.size();i++){
+		Mat image2;
+		cv::resize(imgs[i], image2, Size(this->size_w,this->size_h));
+		newImgs.push_back(image2);
 	}
+	this->setImgs(newImgs);
 	return 0;
 }
 

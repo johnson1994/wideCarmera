@@ -1,3 +1,0 @@
-/home/johnson/wideCarmera/build/CMakeFiles/rebuild_cache.dir
-/home/johnson/wideCarmera/build/CMakeFiles/edit_cache.dir
-/home/johnson/wideCarmera/build/CMakeFiles/carmera.dir

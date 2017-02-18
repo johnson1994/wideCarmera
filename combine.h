@@ -16,10 +16,6 @@ class Combine{
 			result_name=name;
 			winName=win;
 		}
-		~Combine(){
-			delete cw;
-			delete featureFinder;
-		}
 
 		/*初始化*/
 		int init();
@@ -44,15 +40,6 @@ class Combine{
 
 		/*窗口名称*/
 		string winName;
-
-		/*全景图*/
-		Mat pano;
-		Stitcher stitcher;
-		PlaneWarper* cw;
-		/*特征点*/
-		detail::SurfFeaturesFinder* featureFinder;
-		Stitcher::Status status;
-
 
 		/*计算时间*/
 		clock_t start,finish;
