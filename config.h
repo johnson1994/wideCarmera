@@ -49,7 +49,8 @@ class Config{
 		VideoCapture* capture2;
 		/*摄像头3*/
 		VideoCapture* capture3;
-
+		
+		Mat edge1,edge2,edge3;
 };
 
 #endif
